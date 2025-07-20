@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruchikesha S - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js" defer></script>
+    <script src="skills-data.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="animations.js" defer></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <header class="hero">
+        <nav>
+            <div class="logo"><span class="logo-primary">R</span><span class="logo-secondary">S</span></div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Full-Stack Developer & UI/UX Designer</h1>
+            <h2>Ruchikesha S</h2>
+            <p>Creating innovative and user-centric web experiences with modern technology and thoughtful design.</p>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate third-year Computer Science student at REVA University, focusing on creating elegant, user-friendly interfaces and solutions. My interests span across Python development, UI/UX design, full-stack development, AI, and IoT systems.</p>
+                <div class="education">
+                    <h3>Education</h3>
+                    <p>B.Tech in Computer Science Engineering</p>
+                    <p>REVA University, Bengaluru</p>
+                    <p>Expected Graduation: June 2027 | CGPA: 8.0/10</p>
+                </div>
+            </div>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <h3>Problem Solver</h3>
+                    <p>Creative thinking and analytical approach</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Team Player</h3>
+                    <p>Strong communication and collaboration</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Quick Learner</h3>
+                    <p>Adaptable to new technologies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Expertise</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Technical Skills</h3>
+                <div class="skill-bubbles">
+                    <div class="bubble">Python</div>
+                    <div class="bubble">Java</div>
+                    <div class="bubble">MySQL</div>
+                    <div class="bubble">HTML</div>
+                    <div class="bubble">CSS</div>
+                    <div class="bubble">JavaScript</div>
+                    <div class="bubble">React</div>
+                    <div class="bubble">Figma</div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Soft Skills</h3>
+                <div class="skill-bubbles">
+                    <div class="bubble">Communication</div>
+                    <div class="bubble">Teamwork</div>
+                    <div class="bubble">Problem Solving</div>
+                    <div class="bubble">Creative Thinking</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Wedding Budget Planner</h3>
+                <p>A web application for tracking and planning wedding expenses using HTML, CSS, JavaScript, and MySQL.</p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>MySQL</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>IoT-based Smart Agriculture System</h3>
+                <p>Solar-powered irrigation system with NodeMCU, DHT11, and soil moisture sensors for sustainable farming.</p>
+                <div class="project-tech">
+                    <span>IoT</span>
+                    <span>NodeMCU</span>
+                    <span>Sensors</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Rural Health Companion</h3>
+                <p>Voice-enabled, offline-first chatbot for health assistance in areas with poor internet connectivity.</p>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>NLP</span>
+                    <span>Offline Storage</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-text">
+                <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>© 2025 Ruchikesha S</p>
+                <p>  All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/ruchikesha-s/">LinkedIn</a>
+                <a href="https://github.com/ruchikesha19">GitHub</a>
+                <a href="mailto:ruchikesha1903@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
